@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 16px;
+}
+
+section {
+	margin-bottom: 5rem;
+}
+
+
+.flex {
+	display: flex;
+}
+
+.console {
+	width: 40rem;
+}
+
+span {
+	letter-spacing: .3em;
+}
+
+span.inner {
+	font-size: 12px;
+	display: inline-block;
+	background-color: #e3342f;
+	width: 10rem;
+	height: 10rem;
+	background-image: url(../img/ensoku_picnic_people.png);
+	background-size: contain;
+	vertical-align: bottom;
+}
+
+.box {
+	flex: 1;
+	/*background-color: #6cb2eb;*/
+	background-color: #38c172;
+	height: 40rem;
+	font-size: 0;
+	line-height: 1;
+}
+
+.box div {
+	letter-spacing: -0.4em;
+}
+
+/* ----- */
+
+.block {
+	font-size: 1rem;
+	display: block;
+	background-color: #3490dc;
+	height: 20rem;
+}
+.block2 {
+	font-size: 1rem;
+	display: block;
+	background-color: #6574cd;
+	height: 20rem;
+}
+
+.inline {
+	font-size: 1rem;
+	display: inline;
+	background-color: #3490dc;
+	height: 20rem;
+}
+.inline2 {
+	font-size: 1rem;
+	display: inline;
+	background-color: #6574cd;
+	height: 20rem;
+}
+
+.inline-block {
+	font-size: 1rem;
+	display: inline-block;
+	background-color: #3490dc;
+	height: 20rem;
+}
+.inline-block2 {
+	font-size: 1rem;
+	display: inline-block;
+	background-color: #6574cd;
+	height: 20rem;
+}
